@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="card" *ngFor="let user of users">
+    <img [src]="user.image" alt="user img" class="userimg" />
+    <div class="cardcontent">
+      <div class="name">{{user.Name }}</div>
+      <div class="web">{{user.design}}</div>
+      <button class="but" type="button">click me</button>
+    </div>
+  </div>
+</div>
